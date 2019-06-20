@@ -82,22 +82,27 @@ $if(background-image)$
 \usebackgroundtemplate{%
   \tikz[remember picture,overlay]
     \node[opacity=0.1] at (current page.center){%
-      \includegraphics[width=.1\paperwidth,height=\paperheight]{$background-image$}%
+      \includegraphics[width=\paperwidth,height=\paperheight]{$background-image$}%
   };%
 }
 $endif$
+
+% Adaptation LaTeX %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 $if(title-image)$
 %% Image pour la page de titre
 \newcommand{\titleimg}[1]{\def\inserttitleimg{#1}}
 $endif$
-
-% Adaptation LaTeX %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \makeatletter
 % FIXME: bg ou pas pour title-image
 \renewcommand{\maketitle}{%
 $if(title-image)$
   {
-    \usebackgroundtemplate{\includegraphics[width=\paperwidth]{\inserttitleimg}}
+    \usebackgroundtemplate{%
+      \tikz[remember picture,overlay]
+        \node[opacity=0.1] at (current page.center){%
+          \includegraphics[width=\paperwidth]{\inserttitleimg}%
+        };%
+      }
 $endif$
   \begin{frame}[plain]
     \titlepage
