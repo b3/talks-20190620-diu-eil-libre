@@ -599,7 +599,7 @@ Il ne faut pas se retenir : c'est simple, facile et gratifiant
 ## Repères historiques clés : liberté et informatique
 
 - **1983**
-  - Création du projet [GNU](http://www.gnu.org) (puis de la [FSF](http://www.fsf.org) par [Richard STALLMAN](http://stallman.org)
+  - Création du projet [GNU](http://www.gnu.org) (puis de la [FSF](http://www.fsf.org)) par [Richard STALLMAN](http://stallman.org)
   - **[éthique du hacker](https://fr.wikipedia.org/wiki/L\%27\%C3\%A9thique_hacker)** (plaisir)
     $\neq$
     éthique protestante (devoir moral et économique)
@@ -646,7 +646,7 @@ Il ne faut pas se retenir : c'est simple, facile et gratifiant
 ## Crédits
 
 - Cette présentation et son code source sont mises à disposition selon les termes de la [Licence Creative Commons Attribution - Utilisation non commerciale - Partage dans les Mêmes Conditions 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.fr) ![CC-BY-NC-SA](img/logo-cc-by-nc-sa.pdf){ width=10% }
-- La dernière modification de ce document a eu lieu le 20 juin 2019 à 18h14
+- La dernière modification de ce document a eu lieu le 20 juin 2019 à 18h31
 
 <!-- Local Variables: -->
 <!-- time-stamp-active: t -->
