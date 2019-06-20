@@ -22,14 +22,11 @@ theme: ulille
 fontsize: 10pt
 classoption: t
 ---
-
 <!--
 Pour l'instant construit pour du pdf (LaTeX/Beamer) seulement avec toutes les extensions pandoc.
 
 À compiler par :  pandoc -t beamer --template=etc/beamer-pandoc.tex --slide-level=2 --wrap=preserve -s libertes.md -o libertes.pdf
 -->
-
-
 # Introduction
 
 
@@ -69,7 +66,7 @@ Pour l'instant construit pour du pdf (LaTeX/Beamer) seulement avec toutes les ex
 ### Incomplète
 
 - je ne suis pas **juriste**
-    - je vais faire **beaucoup de simplifications** (souvent importantes)
+    - je vais faire **beaucoup de simplifications** (souvent grossières)
 - licences libres **très** nombreuses
 - objectifs
     - faire comprendre ce qu'est la **liberté appliquée à l'informatique**
@@ -646,7 +643,7 @@ Il ne faut pas se retenir : c'est simple, facile et gratifiant
 ## Crédits
 
 - Cette présentation et son code source sont mises à disposition selon les termes de la [Licence Creative Commons Attribution - Utilisation non commerciale - Partage dans les Mêmes Conditions 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.fr) ![CC-BY-NC-SA](img/logo-cc-by-nc-sa.pdf){ width=10% }
-- La dernière modification de ce document a eu lieu le 20 juin 2019 à 18h31
+- La dernière modification de ce document a eu lieu le 20 juin 2019 à 21h39
 
 <!-- Local Variables: -->
 <!-- time-stamp-active: t -->
