@@ -1,4 +1,9 @@
 ---
+#
+# Pour l'instant construit pour du pdf (LaTeX/Beamer) seulement avec toutes les extensions pandoc.
+# 
+# À compiler par :  pandoc -t beamer --template=etc/beamer-pandoc.tex --slide-level=2 --wrap=preserve -s libertes.md -o libertes.pdf
+#
 title: Informatique et libertés
 subtitle: Université de Lille - DIU EIL
 title-image:
@@ -22,11 +27,8 @@ theme: ulille
 fontsize: 10pt
 classoption: t
 ---
-<!--
-Pour l'instant construit pour du pdf (LaTeX/Beamer) seulement avec toutes les extensions pandoc.
 
-À compiler par :  pandoc -t beamer --template=etc/beamer-pandoc.tex --slide-level=2 --wrap=preserve -s libertes.md -o libertes.pdf
--->
+
 # Introduction
 
 
@@ -217,8 +219,8 @@ En théorie les deux approches sont différentes mais en pratique :
 ## Exceptions
 
 > Pendant la durée d'application des droits **patrimoniaux**, toute
-> **reproduction** ou **représentation** de l’œuvre sans le consentement et
-> l'autorisation préalable du titulaire de ces droits est en principe
+> **reproduction** ou **représentation** de l’œuvre **sans le consentement et
+> l'autorisation préalable** du titulaire de ces droits est en principe
 > **interdite**.
 
 \pause
@@ -239,7 +241,7 @@ La loi de chaque pays peut prévoir des exceptions au droit d'auteur. En France 
     5. les accès nécessaires au contenu de bases de données électroniques prévu par contrat ;
     6. la reproduction pour transmission via un intermédiaire (logiciels et BDD exclus) (mise en **cache**);
     7. la représentation à des **personnes handicapées** (en braille, etc.) ;
-    8. la reproduction pour conservation accessibles au public sans avantage commercial (en **bibiliothèque**);
+    8. la reproduction pour conservation accessibles au public sans avantage commercial (en **bibiliothèque**).
 
 
 ## Exception *pédagogique*
@@ -643,7 +645,7 @@ Il ne faut pas se retenir : c'est simple, facile et gratifiant
 ## Crédits
 
 - Cette présentation et son code source sont mises à disposition selon les termes de la [Licence Creative Commons Attribution - Utilisation non commerciale - Partage dans les Mêmes Conditions 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.fr) ![CC-BY-NC-SA](img/logo-cc-by-nc-sa.pdf){ width=10% }
-- La dernière modification de ce document a eu lieu le 20 juin 2019 à 21h39
+- La dernière modification de ce document a eu lieu le 21 juin 2019 à 11h30
 
 <!-- Local Variables: -->
 <!-- time-stamp-active: t -->
