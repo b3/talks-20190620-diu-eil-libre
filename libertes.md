@@ -29,14 +29,15 @@ classoption: t
 ---
 
 
-# Introduction
+Introduction
+============
 
 
 ## Bruno BEAUFILS
 
 ### **Jekyll**
 
-- Maître de conférences en informatique ([IUT](http://www.iut.univ-lille1.fr) / [Département informatique](http://accueil.iut-info.univ-lille1.fr))
+- Maître de conférences en informatique ([IUT](https://www.iut.univ-lille1.fr) / [Département informatique](https://accueil.iut-info.univ-lille1.fr))
 - <bruno.beaufils@univ-lille.fr>
 - <https://beaufils.u-lille.fr>
 
@@ -60,9 +61,9 @@ classoption: t
 - utilisateur (et contributeur) de logiciels libres
 - favorable à l'**extension de la liberté en dehors du cadre du logiciel**
 - membre d'associations défendant et promouvant la liberté
-    - [April](http://www.april.org)
+    - [April](https://www.april.org)
     - [Debian France](https://france.debian.net)
-    - [FDN](http://www.fdn.fr) et [Illyse](http://www.illyse.net)
+    - [FDN](https://www.fdn.fr) et [Illyse](https://www.illyse.net)
     - [nos-oignons](https://nos-oignons.net)
 
 ### Incomplète
@@ -82,7 +83,8 @@ classoption: t
 - une autre présentation suivra sur la liberté pour les ressources éducatives
 
 
-# Informatique
+Informatique
+============
 
 
 ## Logiciel
@@ -141,7 +143,8 @@ Un utilisateur est tributaire d'un éditeur dans le cas où
 - il a besoin du service rendu par un logiciel
 
 
-# Droit
+Droit
+=====
 
 
 ## *Propriété* intellectuelle
@@ -252,7 +255,9 @@ L'exception pédagogique est lié à des accords sectoriels
 - contrepartie du versement d’une rémunération négociée
 - le logiciel est exclus de l'exception pédagogique
 
-# Informatique et droit
+
+Informatique et droit
+=====================
 
 
 ## Droit patrimonial du logiciel : contrat d'usage
@@ -340,6 +345,7 @@ L'éditeur utilise ses droits patrimoniaux pour forcer une utilisation respectan
 
 Une licence *copyleftée* prend *souvent* un aspect viral.
 
+
 ## Quelques malentendus
 
 - libre = gratuit 
@@ -375,7 +381,8 @@ En informatique la plupart des licences protègent l'éditeur en cas de vice cac
 - peu d'autres domaines où c'est le cas
 
 
-# Logiciels et libertés
+Logiciels et libertés
+=====================
 
 
 ## Intérêts du modèle libre
@@ -421,7 +428,6 @@ En informatique la plupart des licences protègent l'éditeur en cas de vice cac
     - gratuit
 - **pouvoir à l'utilisateur**
 
-<!-- https://www.gnu.org/licenses/license-list.html-->
 <!-- https://fr.flossmanuals.net/faq-floss-manuals-francophone/quest-ce-que-lopen-source-et-quelle-est-la-difference-entre-free-libre-et-open/ -->
 
 
@@ -437,8 +443,8 @@ Quelques exemples :
 
 - [GNU General Public License](https://www.gnu.org/copyleft/gpl.html)
 - [GNU Lesser General Public License](https://www.gnu.org/copyleft/lgpl.html)
-- [MIT Public License](http://opensource.org/licenses/mit-license.php)
-- [BSD License](http://www.freebsd.org/copyright/license.html)
+- [MIT Public License](https://opensource.org/licenses/mit-license.php)
+- [BSD License](https://www.freebsd.org/copyright/license.html)
 
 Il existe des listes commentées
 
@@ -477,9 +483,9 @@ poids du droit en informatique :
 Principes posés par [Lawrence LESSIG](http://www.lessig.org/about) en 2002 :
 
 - Appliquer les principes du logiciel libre à toutes les types œuvres de l'esprit
-    - notamment en ligne ;
-- S'appuyer sur la volonté de l'auteur pour faciliter la réutilisation créative, le remix, etc ;
-- Passer d'une approche « Tous droits réservés » à « certains droits réservés »
+    - notamment en ligne
+- S'appuyer sur la volonté de l'auteur pour faciliter la réutilisation créative, le remix, etc
+- Passer d'une approche « *Tous droits réservés* » à « **certains droits réservés** »
 
 \pause\vfill
 
@@ -500,34 +506,37 @@ Un système de licences modulables en 4 *pôles*
 
 \pause\vfill
 
-Au final 6 licences différentes :
+Au final 6+1 licences différentes, avec des signalétiques adadptées
 
-- CC-BY, CC-BY-SA, CC-BY-ND, CC-NY-NC, CC-BY-NC-SA, CC-BY-NC-ND 
-
-Et 6 signalétiques simples :
-
-- \ccby, \ccbysa, \ccbynd, \ccbync, \ccbyncsa, \ccbyncnd
+| CC-0    | CC-BY | CC-BY-SA | CC-BY-ND | CC-NY-NC  | **CC-BY-NC-SA** | CC-BY-NC-ND |
+|:-------:|:-----:|:--------:|:--------:|:---------:|:---------------:|:-----------:|
+| \cczero | \ccby | \ccbysa  | \ccbynd  | \ccbynceu | \ccbyncsaeu     | \ccbyncndeu |
 
 
-## Logiciels libres
+## Logiciels libres {.allowframebreaks}
 
+- Distributions de systèmes d'exploitations *complets*
+    - génériques : [Debian](https://www.debian.org), [Ubuntu](https://ubuntu.com)
+    - adaptés : [Openmediavault](https://www.openmediavault.org), [OSMC](https://osmc.tv), [pfSense](https://www.pfsense.org)
 - Outils systèmes
-    - éditeur : [Emacs](http://www.gnu.org/s/emacs), [vi](http://thomer.com/vi/vi.html)
-    - contrôle de version : [git](http://git-scm.com)
-    - interpréteur et compilateur : [Python](https://www.python.org), [GCC](http://gcc.gnu.org)
+    - éditeur : [Emacs](https://www.gnu.org/s/emacs), [vi](https://thomer.com/vi/vi.html), [Thonny](https://thonny.org)
+    - contrôleur de version : [git](https://git-scm.com)
+    - interpréteur et compilateur : [Python](https://www.python.org), [GCC](https://gcc.gnu.org)
     - émulateur : [VirtualBox](https://www.virtualbox.org)
 - Accès aux services de l'Internet
-    - [Firefox](https://www.mozilla.org/fr/firefox/)
-    - [Thunderbird](https://www.mozilla.org/fr/thunderbird)
-    - [TransmissionBT](http://www.transmissionbt.com)
+    - web : [Firefox](https://www.mozilla.org/fr/firefox/)
+    - email : [Thunderbird](https://www.mozilla.org/fr/thunderbird)
+    - distribution de fichiers : [TransmissionBT](https://www.transmissionbt.com)
 - Manipulation multimédia
-    - [Gimp](http://www.gimp.org), [Inkscape](http://www.inkscape.org/fr), [Blender](http://www.blender.org/)
-    - [VLC](https://www.videolan.org/index.fr.html)
-- Gestion bureautique
-    - [LibreOffice](https://libreoffice.org)
-- Distributions de systèmes d'exploitations *complets*
-    - génériques : [Debian](http://www.debian.org), [Ubuntu](https://ubuntu.com)
-    - adaptés : [Openmediavault](https://www.openmediavault.org), [OSMC](https://osmc.tv), [pfSense](http://www.pfsense.org)
+    - création : [Gimp](https://www.gimp.org), [Inkscape](https://www.inkscape.org/fr), [Blender](https://www.blender.org)
+    - visualisation : [VLC](https://www.videolan.org/index.fr.html)
+- Gestion bureautique : [LibreOffice](https://libreoffice.org)
+- Jeux
+    - [Minetest](https://www.minetest.net)
+    - [FlightGear Flight Simulator](https://www.flightgear.org)
+    - [GCompris](https://gcompris.net)
+
+Une liste de logiciels libres est disponible sur [Framalibre](https://framalibre.org)
 
 
 ## Contribuer
@@ -548,15 +557,18 @@ Il ne faut pas se retenir : c'est simple, facile et gratifiant
 \pause
 
 - **commencer sûrement**
-  - s'informer [FramaBlog](http://www.framablog.org)
+  - s'informer [Framablog](https://www.framablog.org)
   - soutenir (adhérer ou financer) les associations
-    - [APRIL](http://www.april.org)
-    - [Framasoft](http://www.framasoft.net)
-    - [LQDN](http://www.laquadrature.net/fr)
-    - [FFDN](http://www.ffdn.org)
+    - [APRIL](https://www.april.org)
+    - **[Framasoft](https://framasoft.org)**
+    - [LQDN](https://www.laquadrature.net/fr)
+    - [FFDN](https://www.ffdn.org)
   - *évangéliser* autour de soi
 
-# Références
+
+Références
+==========
+
 
 ## Rapide histoire de l'industrie informatique
 
@@ -564,7 +576,7 @@ Il ne faut pas se retenir : c'est simple, facile et gratifiant
 
 - Informatique dominée par l'industrie du **matériel**
   \hfill
-  (IBM, DEC, HP)
+  *(IBM, DEC, HP)*
 - Logiciel développé en mode *universitaire*
 
 ### Années 1980-1990
@@ -572,33 +584,39 @@ Il ne faut pas se retenir : c'est simple, facile et gratifiant
 - Arrivée du PC
 - Développement de l'*industrie* du **logiciel**
   \hfill
-  (Microsoft, Sun, Oracle)
+  *(Microsoft, Novell, Sun, Oracle)*
   
 ### Années 2000-
 
 - Arrivée des périphériques mobiles et développement de l'Internet
 - Développement de l'*industrie* des **données**
   \hfill
-  (Google, Amazon, Facebook, Apple)<!--, Baidu, Alibaba, Tencent, Xiaomi)-->
+  *(Google, Amazon, Facebook, Apple)*
+  <!--*(Baidu, Alibaba, Tencent, Xiaomi)*-->
 
 
 ## Repères historiques clés : industrie informatique
 
 - **1911** : Création de IBM
+- **1951** : Lancement de l'[UNIVAC 1](https://fr.wikipedia.org/wiki/UNIVAC_I)
 - **1968** : Création de Intel
+- **1970** : Lancement du [DEC PDP 11](https://fr.wikipedia.org/wiki/PDP-11)
+- **1971** : Lancement de l'[Intel 4004](https://fr.wikipedia.org/wiki/Intel_4004)
 - **1975** : Création de Microsoft
 - **1976** : Création de Apple
 - **1977** : Création de Oracle
+- **1981** : Lancement de l'[IBM PC](https://fr.wikipedia.org/wiki/IBM_PC)
 - **1994** : Création de Amazon
 - **1998** : Création de Google
 - **2004** : Création de Facebook
-- **2007** : Lancement de l'iPhone
+- **2006** : Lancement des services [AWS](https://fr.wikipedia.org/wiki/Amazon_Web_Services)
+- **2007** : Lancement de l'[iPhone](https://fr.wikipedia.org/wiki/IPhone)
 
 
 ## Repères historiques clés : liberté et informatique
 
 - **1983**
-  - Création du projet [GNU](http://www.gnu.org) (puis de la [FSF](http://www.fsf.org)) par [Richard STALLMAN](http://stallman.org)
+  - Création du projet [GNU](https://www.gnu.org) (puis de la [FSF](https://www.fsf.org)) par [Richard STALLMAN](https://stallman.org)
   - **[éthique du hacker](https://fr.wikipedia.org/wiki/L\%27\%C3\%A9thique_hacker)** (plaisir)
     $\neq$
     éthique protestante (devoir moral et économique)
@@ -612,40 +630,66 @@ Il ne faut pas se retenir : c'est simple, facile et gratifiant
 
 - **1998**
     - [Eric RAYMOND](http://www.catb.org/esr) écrit un essai intitulé « *[La cathédrale et le bazaar](http://www.linux-france.org/article/these/cathedrale-bazar/cathedrale-bazar.html)* »
-    - Création de l'[Open Source Initiative](http://opensource.org)
+    - Création de l'[Open Source Initiative](https://opensource.org)
 
 - **2001**
     - [Jimmy WALES](https://fr.wikipedia.org/wiki/Jimmy_Wales) crée [Wikipedia](https://wikipedia.org)
 
 - **2002** 
-    - [Lawrence LESSIG](https://fr.wikipedia.org/wiki/Lawrence_Lessig) crée [Creative Commons](https://creativecommons.org)
+    - [Lawrence LESSIG](https://fr.wikipedia.org/wiki/Lawrence_Lessig) crée [Creative Commons](https://creativecommons.org/licenses)
+
+
+## Repères visuels
+
+|                                          |                                                                |                                         |                                                  |
+|:----------------------------------------:|:--------------------------------------------------------------:|:---------------------------------------:|:------------------------------------------------:|
+| ![TOTO](img/rms-2014.jpg){ width=20% }   | ![](img/linus-2014.jpg){ width=21.5% }                         | ![](img/esr-2004.jpg){ width=20% }      | ![](img/lessig-2015.jpg){ width=18% }            |
+| [Richard STALLMAN](https://stallman.org) | [Linus TORVALDS](https://fr.wikipedia.org/wiki/Linus_Torvalds) | [Eric RAYMOND](http://www.catb.org/esr) | *[Lawrence LESSIG](http://www.lessig.org/about)* |
 
 
 ## Références {.allowframebreaks}
 
-- [Internet ou la révolution du partage](https://www.arte.tv/fr/videos/077346-000-A/internet-ou-la-revolution-du-partage)
+- **[Internet ou la révolution du partage](https://www.arte.tv/fr/videos/077346-000-A/internet-ou-la-revolution-du-partage)**
     - version condensée de [*La bataille du libre*](http://tempsnoir.com/film/internet-ou-la-revolution-du-partage) de Philippe BORREL
-    - visible librement sur Arte.tv jusqu'au 30 août 2019
-- [Contenus numériques : droit d'auteur et licences libres](https://stph.scenari-community.org/ln/da/co/da.html)
+    - visible gratuitement jusqu'au 30 août 2019
+    
+- **[Contenus numériques : droit d'auteur et licences libres](https://stph.scenari-community.org/ln/da/co/da.html)**
     - supports d'un cours de Lionel Maurel (alias *Calimaq*)
-- [CYBERSTRUCTURE. L'Internet, un espace politique](https://cyberstructure.fr)
+- **[Cuberstructure. L'Internet, un espace politique](https://cyberstructure.fr)**
     - livre de [Stéphane BORTZMEYER](https://cyberstructure.fr), publié chez [C&F Éditions](https://cfeditions.com/public) en 2018
-- [Utopie du logiciel libre](http://lepassagerclandestin.fr/catalogue/essais/utopie-du-logiciel-libre.html)
+- **[Utopie du logiciel libre](http://lepassagerclandestin.fr/fileadmin/assets/catalog/essais/Utopie_logiciel_libre__Broca__Le_passager_clandestin.pdf)**
     - livre de Sébastien BROCA, publié chez *Le passager clandestin* en 2013
-    - auteur invité de l'émission [« Place de la toile » du 28 décembre 2013](http://rf.proxycast.org/841402162318675968/10465-28.12.2013-ITEMA_20567547-0.mp3)
-- [L'éthique hacker et l'esprit de l'ère de l'information](http://www.amazon.fr/LEthique-Hacker-lEsprit-l\%C3\%A8re-linformation/dp/2912969298)
+    - auteur invité de l'émission *« Place de la toile »* sur France Culture le [28 décembre 2013](http://rf.proxycast.org/841402162318675968/10465-28.12.2013-ITEMA_20567547-0.mp3)
+- **[L'éthique hacker et l'esprit de l'ère de l'information](http://www.editions-exils.fr/exils/l-ethique-hacker-et-l-esprit-de-l-ere-de-l-information)**
     - livre de Pekka HIMANEN, publié chez Exils en 2001
-- [The Cathedral and the Bazaar](http://www.catb.org/~esr/writings/homesteading)
+- **[The Cathedral and the Bazaar](http://www.catb.org/~esr/writings/homesteading)**
     - article d'[Eric RAYMOND](http://www.catb.org/esr)
-
-
-# Colophon
+    - version française : *[La cathédrale et le bazaar](http://www.linux-france.org/article/these/cathedrale-bazar/cathedrale-bazar.html)*
 
 
 ## Crédits
 
-- Cette présentation et son code source sont mises à disposition selon les termes de la [Licence Creative Commons Attribution - Utilisation non commerciale - Partage dans les Mêmes Conditions 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.fr) ![CC-BY-NC-SA](img/logo-cc-by-nc-sa.pdf){ width=10% }
-- La dernière modification de ce document a eu lieu le 21 juin 2019 à 11h30
+- Cette présentation et son code source sont mises à disposition selon les termes de la [Licence Creative Commons Attribution - Utilisation non commerciale - Partage dans les Mêmes Conditions 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.fr) \ccbyncsaeu.
+
+    \vfill
+
+- Photos
+    - Richard STALLMAN : Thesupermat [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0)
+    - Linus TORVALDS : Krd (photo)Von Sprat (crop/extraction) [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0)
+    - Eric RAYMOND : Erc_S_Raymond_and_company.jpg: jerone2derivative work: Bilby [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)
+    - Lawrence LESSIG : Lessig 2016 [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
+
+    \vfill
+
+- La présentation au format PDF est disponible à \url{http://bruno.boulgour.com/talks/2019-06-20-diu-eil-libre}
+
+    \vfill
+
+- Le code source Markdown-Pandoc de la présentation est disponible à <https://github.com/b3/talks-20190620-diu-eil-libre>
+
+    \vfill
+
+- La dernière modification de ce document a eu lieu le 21 juin 2019 à 16h17
 
 <!-- Local Variables: -->
 <!-- time-stamp-active: t -->
