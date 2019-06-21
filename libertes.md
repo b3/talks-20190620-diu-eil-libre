@@ -2,15 +2,15 @@
 #
 # Pour l'instant construit pour du pdf (LaTeX/Beamer) seulement avec toutes les extensions pandoc.
 # 
-# À compiler par :  pandoc -t beamer --template=etc/beamer-pandoc.tex --slide-level=2 --wrap=preserve -s libertes.md -o libertes.pdf
+# À compiler par :  pandoc -t beamer --template=etc/beamer-pandoc.tex --slide-level=2 --wrap=preserve -s -V aspectratio=169 libertes.md -o libertes.pdf
 #
 title: Informatique et libertés
 subtitle: Université de Lille - DIU EIL
-title-image:
-  file: gnu-head
 author:
 - Bruno BEAUFILS
 date: 20 juin 2019
+title-image:
+  file: gnu-head
 logo:
 - file: logo-univ-lille
   width: .2
@@ -20,9 +20,8 @@ logo:
   nl: true
 - file: logo-cc-by-nc-sa
   width: .1
-license: ccByNCSA
 keywords: logiciel libre, diu-eil
-aspectratio: 169
+license: ccByNCSA # pas utilisé pour l'instant
 theme: ulille
 fontsize: 10pt
 classoption: t
@@ -343,7 +342,7 @@ L'éditeur utilise ses droits patrimoniaux pour forcer une utilisation respectan
 - Copyright
 - Conditions de distribution
 
-Une licence *copyleftée* prend *souvent* un aspect viral.
+Une licence *copyleftée* prend *souvent* un aspect viral
 
 
 ## Quelques malentendus
@@ -433,7 +432,7 @@ Logiciels et libertés
 
 ## Des licences *libres* en veux-tu en voilà
 
-Depuis la création de la GNU GPL chacun a donné sa version de la liberté
+Depuis la création de la GNU GPL beaucoup ont donné leur version de la liberté
 
 - quasiment chaque éditeur a créé sa licence *libre*
 - des organisations ont donné une interprétation de la liberté dans le logiciel
@@ -633,7 +632,7 @@ Références
     - Création de l'[Open Source Initiative](https://opensource.org)
 
 - **2001**
-    - [Jimmy WALES](https://fr.wikipedia.org/wiki/Jimmy_Wales) crée [Wikipedia](https://wikipedia.org)
+    - [Jimmy WALES](https://fr.wikipedia.org/wiki/Jimmy_Wales) et [Larry SANGER](https://fr.wikipedia.org/wiki/Larry_Sanger) créent [Wikipedia](https://wikipedia.org)
 
 - **2002** 
     - [Lawrence LESSIG](https://fr.wikipedia.org/wiki/Lawrence_Lessig) crée [Creative Commons](https://creativecommons.org/licenses)
@@ -689,7 +688,7 @@ Références
 
     \vfill
 
-- La dernière modification de ce document a eu lieu le 21 juin 2019 à 16h17
+- La dernière modification de ce document a eu lieu le 21 juin 2019 à 20h46
 
 <!-- Local Variables: -->
 <!-- time-stamp-active: t -->
