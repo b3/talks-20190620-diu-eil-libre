@@ -3,12 +3,13 @@ QUOI := libertes
 # on se débarrase des tabulations
 .RECIPEPREFIX := >
 
-# GNU et BSD n'ont pas les mêmes options pour utiliser le ERE
+# GNU et BSD n'ont pas les mêmes options pour utiliser les ERE
 SED := sed$(shell { sed v </dev/null >&0 2>&1 && echo " -r" ; } || echo " -E" )
 
 # configuration des transformations
-PANDOC := pandoc -t beamer --template=etc/beamer-pandoc.tex --slide-level=2 --wrap=preserve -s
+PANDOC := pandoc -t beamer --template=etc/beamer-pandoc.tex --slide-level=2 --wrap=preserve -s #--lua-filter=etc/latex-pandoc.lua
 export TEXINPUTS := .//:
+
 
 # diapositives - pour projection
 %-ecran.pdf: %.md images $(wildcard etc/*)
