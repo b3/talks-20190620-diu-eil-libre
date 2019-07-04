@@ -1,4 +1,4 @@
-QUOI := libertes
+QUOI := libertes partage
 
 # on se débarrase des tabulations
 .RECIPEPREFIX := >
