@@ -2,7 +2,7 @@
 #
 # Pour l'instant construit uniquement pour du pdf (LaTeX/Beamer) avec toutes les extensions pandoc.
 # 
-# À compiler par :  pandoc -t beamer --template=etc/beamer-pandoc.tex --slide-level=2 --wrap=preserve -s -V aspectratio=169 libertes.md -o libertes.pdf
+# À compiler par :  pandoc -t beamer --template=etc/beamer-pandoc.tex --lua-filter=etc/latex-pandoc.lua --slide-level=2 --wrap=preserve -s -V aspectratio=169 libertes.md -o libertes.pdf
 #
 title: Informatique et libertés
 subtitle: Université de Lille - DIU EIL
@@ -20,7 +20,7 @@ logo:
   nl: true
 - file: logo-cc-by-nc-sa
   width: .1
-keywords: logiciel libre, diu-eil
+keywords: logiciel libre, diu-eil, informatique
 license: ccByNCSA # pas utilisé pour l'instant
 theme: ulille
 fontsize: 10pt
@@ -695,7 +695,7 @@ Références
 
     \vfill
 
-- La dernière modification de ce document a eu lieu le 4 juillet 2019 à 15h44
+- La dernière modification de ce document a eu lieu le 4 juillet 2019 à 15h51
 
 <!-- Local Variables: -->
 <!-- time-stamp-active: t -->
