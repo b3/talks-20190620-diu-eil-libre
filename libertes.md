@@ -1,6 +1,6 @@
 ---
 #
-# Pour l'instant construit pour du pdf (LaTeX/Beamer) seulement avec toutes les extensions pandoc.
+# Pour l'instant construit uniquement pour du pdf (LaTeX/Beamer) avec toutes les extensions pandoc.
 # 
 # À compiler par :  pandoc -t beamer --template=etc/beamer-pandoc.tex --slide-level=2 --wrap=preserve -s -V aspectratio=169 libertes.md -o libertes.pdf
 #
@@ -15,7 +15,7 @@ logo:
 - file: logo-univ-lille
   width: .2
   nl: true
-- file: logo-eil
+- file: logo-diu-eil
   width: .1
   nl: true
 - file: logo-cc-by-nc-sa
@@ -37,7 +37,9 @@ Introduction
 ### **Jekyll**
 
 - Maître de conférences en informatique ([IUT](https://www.iut.univ-lille1.fr) / [Département informatique](https://accueil.iut-info.univ-lille1.fr))
+
 - <bruno.beaufils@univ-lille.fr>
+
 - <https://beaufils.u-lille.fr>
 
 \pause
@@ -45,16 +47,21 @@ Introduction
 ### **Hide**
 
 - Libriste convaincu depuis 1991
+
 - <bruno+libre@boulgour.com>
+
 - <https://bruno.boulgour.com>
+
 - mastodon : [`@beaufils@mastodon.social`](https://mastodon.social/@beaufils)
+
 - twitter : [`@brunobeaufils`](https://twitter.com/brunobeaufils)
+
 - opinions souvent *un peu* fortes
 
 
 ## Présentation {.allowframebreaks}
 
-### Biaisée
+### Biaisée { .block }
 
 - enseignant-chercheur universitaire donc défenseur du **libre accès aux savoirs**
 - utilisateur (et contributeur) de logiciels libres
@@ -65,7 +72,7 @@ Introduction
     - [FDN](https://www.fdn.fr) et [Illyse](https://www.illyse.net)
     - [nos-oignons](https://nos-oignons.net)
 
-### Incomplète
+### Incomplète  { .block }
 
 - je ne suis pas **juriste**
     - je vais faire **beaucoup de simplifications** (souvent grossières)
@@ -76,7 +83,7 @@ Introduction
     - convaincre de l'intérêt de la liberté *(et des dangers de sa privation)*
     - transmettre la volonté de participer
     
-### Introductive
+### Introductive  { .block }
 
 - liens pour aller plus loin
 - une autre présentation suivra sur la liberté pour les ressources éducatives
@@ -88,7 +95,7 @@ Informatique
 
 ## Logiciel
 
-### Ordinateur
+### Ordinateur { .block }
 
 Un ordinateur est une machine permettant d'effectuer des instructions :
 
@@ -97,7 +104,7 @@ Un ordinateur est une machine permettant d'effectuer des instructions :
 
 \pause
 
-### Logiciel
+### Logiciel { .block }
 
 Un logiciel est une suite d'instructions pour traiter de l'information sur un processeur
 
@@ -107,7 +114,7 @@ Un logiciel est une suite d'instructions pour traiter de l'information sur un pr
 
 \pause
 
-### Remarque
+### Remarque { .block }
 
 **L'intelligence est plus dans le logiciel que dans l'ordinateur**
 
@@ -148,7 +155,7 @@ Droit
 
 ## *Propriété* intellectuelle
 
-**Ensemble des droits accordés sur des créations intellectuelles**
+### Ensemble des droits accordés sur des créations intellectuelles
 
 - regroupe des choses très différentes
     - **propriété littéraire et artistique**
@@ -169,9 +176,9 @@ Droit
     - important dans l'éducation
 
 
-## Droit moral *vs* droit patrimonial : principes
+## Droit moral *vs* droit patrimonial : 
 
-**Droit moral**
+### Droit moral
 
 - droits de paternité, divulgation, à l'intégrité, au repentir (retrait)
 - attaché à la personne **auteur** de l'œuvre
@@ -182,7 +189,7 @@ Droit
     
 \pause
 
-**Droit patrimonial**
+### Droit patrimonial
 
 - droits de représentation, reproduction
 - cessible par contrat (**ayant-droit**)
@@ -197,7 +204,7 @@ Droit
 
 ## Droit moral *vs* droit patrimonial : réalité
 
-**[Convention de Berne](https://www.wipo.int/treaties/fr/text.jsp?file_id=283699)** (1886)
+### [Convention de Berne](https://www.wipo.int/treaties/fr/text.jsp?file_id=283699) (1886)
 
 - 176 pays signataires (USA signe uniquement 1989)
 - principes
@@ -209,7 +216,7 @@ Droit
 
 \pause
 
-En théorie les deux approches sont différentes mais en pratique :
+### En théorie les deux approches sont différentes mais en pratique assez peu
 
 - droits pas limités à l'auteur (ni même sa famille)
 - revient souvent à donner beaucoup (*trop* et *de plus en plus*) de pouvoir aux ayants-droits
@@ -386,13 +393,13 @@ Logiciels et libertés
 
 ## Intérêts du modèle libre
 
-**Technique**
+### Technique 
 
 - Fiabilité
 - Pérennité
 - Interopérabilité
 
-**Économique**
+### Économique
 
 - Coût
     - **+** Coût des licences
@@ -400,7 +407,7 @@ Logiciels et libertés
     - **-** Formation
 - Indépendance technologique
 
-**Philosophique**
+### Philosophique
 
 - Diffusion de la connaissance et du savoir
 - Transparence
@@ -408,7 +415,7 @@ Logiciels et libertés
 
 ## Logiciels libres et code ouvert
 
-**Open-Source**
+### Open-Source
 
 - on n'insiste pas sur l'utilisation mais plus sur la disponibilité (libertés 1, 2 et 3)
     - contrainte sur l'utilisation possible
@@ -419,7 +426,7 @@ Logiciels et libertés
     - permet d'*externaliser* le développement
 - **pouvoir à l'éditeur**
 
-**Free (and Libre) Open Source Software** (FLOSS)
+### Free (and Libre) Open Source Software (FLOSS)
 
 - le point important est la liberté 0 (aucune restriction à l'utilisation)
 - confusion entretenue par le sens de *free* en anglais
@@ -495,7 +502,7 @@ Un système de licences modulables en 4 *pôles*
   `CC` \ccAttribution
 - **Pas d'utilisation commercial**
   \hfill
-  `NC` \ccNonCommercial
+  `NC` \ccNonCommercial \ccNonCommercialEU
 - **Pas de Modification**
   \hfill
   `ND` \ccNoDerivatives
@@ -688,7 +695,7 @@ Références
 
     \vfill
 
-- La dernière modification de ce document a eu lieu le 21 juin 2019 à 20h46
+- La dernière modification de ce document a eu lieu le 4 juillet 2019 à 15h44
 
 <!-- Local Variables: -->
 <!-- time-stamp-active: t -->
