@@ -499,7 +499,7 @@ Un système de licences modulables en 4 *pôles*
 
 - **Attribution de Paternité**
   \hfill
-  `CC` \ccAttribution
+  `BY` \ccAttribution
 - **Pas d'utilisation commercial**
   \hfill
   `NC` \ccNonCommercial \ccNonCommercialEU
@@ -514,7 +514,7 @@ Un système de licences modulables en 4 *pôles*
 
 Au final 6+1 licences différentes, avec des signalétiques adadptées
 
-| CC-0    | CC-BY | CC-BY-SA | CC-BY-ND | CC-NY-NC  | **CC-BY-NC-SA** | CC-BY-NC-ND |
+| CC-0    | CC-BY | CC-BY-SA | CC-BY-ND | CC-BY-NC  | **CC-BY-NC-SA** | CC-BY-NC-ND |
 |:-------:|:-----:|:--------:|:--------:|:---------:|:---------------:|:-----------:|
 | \cczero | \ccby | \ccbysa  | \ccbynd  | \ccbynceu | \ccbyncsaeu     | \ccbyncndeu |
 
@@ -695,7 +695,7 @@ Références
 
     \vfill
 
-- La dernière modification de ce document a eu lieu le 4 juillet 2019 à 15h51
+- La dernière modification de ce document a eu lieu le 5 juin 2020 à 12h32
 
 <!-- Local Variables: -->
 <!-- time-stamp-active: t -->
